@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs",
     "start": "node src/app.js"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "postman-request": "^2.88.1-postman.27"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
